@@ -3,7 +3,7 @@ import java.util.*;
 import java.util.Scanner;
 public class Leap
 {
-Public static void main(String args[])
+public static void main(String args[])
 {
 int year;
     	Scanner scan = new Scanner(System.in);
@@ -28,8 +28,8 @@ int year;
         }
 
         if(isLeap==true)
-            System.out.println("Yes");
+            System.out.println("yes");
         else
-            System.out.println("No");
+            System.out.println("no");
     }
 }
