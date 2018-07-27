@@ -10,7 +10,7 @@ System.out.println("vowel");
 }
   else
   {
-    System.out.println("consonant");
+    System.out.println("Consonant");
   }
 }
 }
