@@ -13,7 +13,7 @@ class ultiple
 		for(int c=1;c<=5;c++)
 		{
 			int a=n*c;
-			System.out.println(a);
+			System.out.println(a+" ");
 		}
 	}
 }
