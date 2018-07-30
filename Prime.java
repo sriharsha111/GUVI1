@@ -22,7 +22,7 @@ class Prime
 			}
 		}
 			if(count==2)
-			System.out.println("prime");
+			System.out.println("yes");
 			else
 			System.out.println("not");
  
