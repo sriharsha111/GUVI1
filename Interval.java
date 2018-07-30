@@ -11,13 +11,13 @@ class Interval
 		Scanner s=new Scanner(System.in);
 		int m=s.nextInt();
 		int n=s.nextInt();
-			while(m<n)
+			while(++m<n)
 			{
 				if(m%2==0)
 				{
 					System.out.print(m+" ");
 				}
-				m++;
+				
 			}
 		}
  
