@@ -3,7 +3,7 @@ import java.lang.*;
 import java.io.*;
  
 /* Name of the class has to be "Main" only if the class is public. */
-class Interval
+class Intervalodd
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
@@ -13,7 +13,7 @@ class Interval
 		int n=s.nextInt();
 			while(++m<n)
 			{
-				if(m%2==0)
+				if(m%2!=0)
 				{
 					System.out.print(m+" ");
 				}
