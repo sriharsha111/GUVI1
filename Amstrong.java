@@ -19,6 +19,6 @@ if(temp==sum)
 System.out.println("yes");
 }
 else
-System.out.prinln("no");
+System.out.println("no");
 }
 }
