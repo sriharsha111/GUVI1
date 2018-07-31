@@ -7,6 +7,7 @@ public static void main(String args[])
 int r,temp,sum=0;
 Scanner s=new Scanner(System.in);
 int n=s.nextInt();
+  temp=n;
 while(n>0)
 {
 r=n%10;
