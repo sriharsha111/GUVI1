@@ -13,6 +13,6 @@ reverse=reverse*10;
 reverse=reverse+n%10;
 n=n/10;
 }
-Ststem.out.print(reverse);
+System.out.print(reverse);
 }
 }
