@@ -21,7 +21,7 @@ class Char1
 			}
 			else
 			{
-				System.out.println("no");
+				System.out.println("No");
 				break;
 			}
 		}
