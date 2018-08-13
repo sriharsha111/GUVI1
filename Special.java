@@ -25,7 +25,7 @@ class Special
 			{
 				c++;
 			}
-			else if(str.charAt(i)=='_')
+			else if(str.charAt(i)==' ')
 			{
 				k++;
 			}
