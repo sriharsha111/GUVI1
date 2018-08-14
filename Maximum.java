@@ -12,14 +12,13 @@ class Maximum
 		// your code goes here
 		int max;
 		Scanner s=new Scanner(System.in);
-		int n=s.nextInt();
-		int a[]=new int[n];
-		for(int i=0;i<n;i++)
+		int a[]=new int[8];
+		for(int i=0;i<8;i++)
 		{
 			a[i]=s.nextInt();
 		}
 		max=a[0];
-		for(int i=0;i<n;i++)
+		for(int i=0;i<8;i++)
 		{
 			if(max<a[i])
 			{
