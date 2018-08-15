@@ -1,4 +1,3 @@
-/* package whatever; // don't place package name! */
 
 import java.util.*;
 import java.lang.*;
@@ -10,14 +9,21 @@ class Average
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		// your code goes here
-		int sum=0;
-		Scanner s=new Scanner(System.in);
-		int n=s.nextInt();
-		for(int i=0;i<=n;i++)
+		int sum=0,i,avg=0;
+		Scanner sc=new Scanner(System.in);
+		int n =sc.nextInt();
+		int []a=new int[n];
+		for(i=0;i<n;i++)
 		{
-			sum=sum+i;
+			a[i]=sc.nextInt();
 		}
-		int avg=sum/n;
-		System.out.println(avg);
+		for (i=0;i<n;i++)
+		{
+			sum=sum+a[i];
+		}
+		avg=sum/n;
+	    System.out.println(avg);	// your code
+	}
+}
 	}
 }
